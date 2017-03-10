@@ -1,0 +1,323 @@
+#nav {
+	width: 100%;
+	background-color: red;
+	padding: 0;
+	margin: 0 auto;
+	height: 50px;
+	border-bottom: 3px solid black;
+}
+
+#nav li {
+	width: 32.5%;
+	display: inline-block;
+	background-color: orange;
+	text-align: center;
+	height: 100%;
+	line-height: 50px;
+}
+
+#nav li span {
+	height: 100px;
+}
+
+#wrapper {
+	width: 100%;
+	position:relative;
+}
+
+#container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+	padding-left:5px;
+	padding-right:5px;
+	font-size: 16px;
+}
+
+#container a {
+	color: inherit;
+}
+
+#landing-page {
+	text-align:center;
+}
+
+#teaser {
+	text-align:left;
+	border-style:solid;
+	width: 500px;
+	padding: 5px 15px 5px 15px;
+}
+
+#notification-sidebar {
+	background-color:#f5f5f5;
+	display:inline-block;
+	position:absolute;
+	right:20px;
+	top:0px;
+	padding:10px;
+	border-color: #ddd;
+    border-width: 1px;
+    border-radius: 4px 4px 0 0;
+    border-style:solid;
+}
+
+#notification-sidebar h2{
+	margin-top:0px;
+}
+
+
+#briefing-container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 70px;
+}
+
+.navbar-collapse.collapse {
+display: block!important;
+}
+
+.nav>li>a {
+	padding: 15px 7px;
+	font-size: 22px;
+	width: 106px;
+	text-align: center;
+}
+
+.navbar-nav>li, .navbar-nav {
+float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+margin-right: -15px !important;
+}
+
+.navbar-right {
+float: right!important;
+}
+
+.back-button {
+	position: fixed;
+	top: 120px;
+	left: 20px;
+}
+
+.list-group-item {
+	overflow-wrap: break-word;
+}
+
+.list-group-item:hover {
+	background-color: #ddd;
+	-webkit-transition: .5s;
+}
+
+.logged-in-text {
+	color: #9d9d9d;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 20px;
+	display: block;
+}
+
+.logged-in {
+	position: absolute !important;
+	right: 30px !important;
+	top: 0px !important;
+}
+
+.key-points-text {
+	color: #9d9d9d;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	line-height: 20px;
+	display: block;
+}
+
+table {
+	text-align: center;
+}
+
+.btn {
+	font-size: 16px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.btn-link { 
+     background:none!important;
+     /*background-color: transparent;*/
+     border: none;
+     color: #428bca;
+     /*text-decoration: underline;*/
+     cursor: pointer; 
+     border:none; 
+     padding:0!important;
+     /*margin: 0;*/
+}
+
+.form-control {
+	height: 36px;
+}
+
+.formy {
+	border-color: #ddd;
+	border-width: 1px;
+	border-radius: 4px 4px 0 0;
+	position: relative;
+	padding: 45px 10px 15px;
+	margin: 0 -8px 25px;
+	border-style: solid;
+}
+
+.comment {
+	margin: 0 0px 25px;
+	background:#f5f5f5;
+}
+
+.comoncom {
+	margin: 0 0px 25px;
+	background: #fff;
+}
+
+.formy:after {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #959595;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.picy:after {
+	content: "your photo";
+}
+
+.texty:after {
+	content: "your thoughts";
+}
+
+.submity:after {
+	content: "your prompt";
+}
+
+.tribey:after {
+	content: "tribe name";
+}
+
+.ucommenty:after {
+	content: "your comment";
+}
+
+.tcommenty:after {
+	content: "comment";
+}
+
+.theircommenty:after {
+	content: "their comment";
+}
+
+.pcommenty:after {
+	content: "comment pending...";
+}
+
+.challengey:after {
+	content: "prompts you've completed";
+}
+
+.prompty:after {
+	content: "active prompts";
+}
+
+.sharedprompty:after {
+	content: "shared prompts";
+}
+
+.submittedy:after {
+	content: "prompts you've submitted";
+}
+
+.yourefy:after {
+	content: "your reflection";
+}
+
+.themrefy:after {
+	content: "reflections from other users";
+}
+
+.theirrefy:after {
+	content: "their reflection";
+}
+
+.fancylist {
+  
+}
+
+.fancylist ul {
+  list-style-type: none;
+  width: 100%;
+  padding-left: 0 !important;
+}
+
+.fancylist ul li h3 a {
+	text-decoration: none;
+	color: black;
+}
+
+.fancylist ul li h3 {
+  font: 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.fancylist ul li div {
+  float: left;
+  width: 75px;
+  height: 75px;
+  margin: 0 15px 0 0;
+  text-align: center;
+  background-color: #3276b1;
+  border-color: #285e8e;
+  border-radius: 4px;
+}
+
+.fancylist ul li div i {
+  line-height: 75px;
+}
+
+.fancylist ul li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+.fancylist ul li {
+  padding: 10px;
+  overflow: auto;
+}
+
+.fancylist ul li h3 {
+	margin-top: 0px;
+}
+
+.fancylist ul li:hover {
+  background: #eee;
+  cursor: pointer;
+}
